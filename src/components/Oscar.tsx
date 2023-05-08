@@ -1,7 +1,10 @@
-const Oscar = () => {
+type OscarProps = {
+  children: React.ReactNode;
+};
+const Oscar = (props: OscarProps) => {
   return (
     <div>
-      <h2>Oscar</h2>
+      <h2>{props.children}</h2>
     </div>
   );
 };

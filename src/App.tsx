@@ -1,5 +1,7 @@
 import "./App.css";
+import Greet from "./components/Greet";
 import Heading from "./components/Heading";
+import Oscar from "./components/Oscar";
 import Status from "./components/Status";
 
 function App() {
@@ -25,6 +27,10 @@ function App() {
       <PersonList names={nameList} /> */}
       <Status status="error" />
       <Heading>Placeholder Text</Heading>
+      <Oscar>
+        <Heading>Oscar Goes To Me!</Heading>
+      </Oscar>
+      <Greet name="Kabir" isLoggedin={true}></Greet>
     </div>
   );
 }
