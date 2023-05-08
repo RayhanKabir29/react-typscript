@@ -1,7 +1,10 @@
-const Heading = () => {
+type HeadingProps = {
+  children: string;
+};
+const Heading = (props: HeadingProps) => {
   return (
     <div>
-      <h2>This is Heading</h2>
+      <h2>{props.children}</h2>
     </div>
   );
 };

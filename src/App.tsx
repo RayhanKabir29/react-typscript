@@ -1,4 +1,5 @@
 import "./App.css";
+import Heading from "./components/Heading";
 import Status from "./components/Status";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Person name={personName} />
       <PersonList names={nameList} /> */}
       <Status status="error" />
+      <Heading>Placeholder Text</Heading>
     </div>
   );
 }
