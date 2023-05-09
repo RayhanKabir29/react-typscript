@@ -1,5 +1,6 @@
 import "./App.css";
-import Button from "./components/Button";
+
+import Container from "./components/Container";
 
 function App() {
   // const personName = {
@@ -28,7 +29,9 @@ function App() {
         <Heading>Oscar Goes To Me!</Heading>
       </Oscar>
       <Greet name="Kabir" isLoggedin={true}></Greet> */}
-      <Button handleClick={(event, id) => console.log("Clicked", event, id)} />
+      {/* <Button handleClick={(event, id) => console.log("Clicked", event, id)} />
+      <Input value=" " handleChange={(event) => console.log("Clicked")} /> */}
+      <Container styles={{ border: "1px solid red", padding: "6px" }} />
     </div>
   );
 }
