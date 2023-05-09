@@ -28,7 +28,7 @@ function App() {
         <Heading>Oscar Goes To Me!</Heading>
       </Oscar>
       <Greet name="Kabir" isLoggedin={true}></Greet> */}
-      <Button handleClick={() => console.log("Clicked")} />
+      <Button handleClick={(event, id) => console.log("Clicked", event, id)} />
     </div>
   );
 }
