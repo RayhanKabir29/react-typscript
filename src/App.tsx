@@ -1,6 +1,6 @@
 import "./App.css";
 
-import Container from "./components/Container";
+import LoggedIn from "./components/state/LoggedIn";
 
 function App() {
   // const personName = {
@@ -31,7 +31,8 @@ function App() {
       <Greet name="Kabir" isLoggedin={true}></Greet> */}
       {/* <Button handleClick={(event, id) => console.log("Clicked", event, id)} />
       <Input value=" " handleChange={(event) => console.log("Clicked")} /> */}
-      <Container styles={{ border: "1px solid red", padding: "6px" }} />
+      {/* <Container styles={{ border: "1px solid red", padding: "6px" }} /> */}
+      <LoggedIn />
     </div>
   );
 }
