@@ -1,4 +1,5 @@
 import "./App.css";
+import Counter from "./components/state/Counter";
 
 import LoggedIn from "./components/state/LoggedIn";
 
@@ -33,6 +34,7 @@ function App() {
       <Input value=" " handleChange={(event) => console.log("Clicked")} /> */}
       {/* <Container styles={{ border: "1px solid red", padding: "6px" }} /> */}
       <LoggedIn />
+      <Counter />
     </div>
   );
 }
